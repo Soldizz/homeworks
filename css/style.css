@@ -1,0 +1,43 @@
+body{
+    font-family: 'Ralewsy','Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding:0 30px;
+}
+.section{
+    padding: 94px 0;
+}
+.header{
+    padding: 24px 0;
+}
+.header-position{
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+        align-items: center;
+}
+.list{
+    display: flex;
+}
+.
