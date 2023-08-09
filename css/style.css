@@ -28,6 +28,9 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .header{
     padding: 24px 0;
+    max-width: 1600px;
+    /* height: 80px; */
+    margin: 0 auto;
 }
 .header-position{
     display: flex;
@@ -35,9 +38,76 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .navigation{
     display: flex;
-        align-items: center;
+    align-items: center;
 }
 .list{
     display: flex;
+    width: 280px;
+    justify-content: space-between;
+    margin-left: 93px;
 }
-.
+.list-contacs{
+    display: flex;
+    margin-left: auto;
+}
+.menu-contact + .menu-contact{
+    margin-left: 50px;
+}
+.hero{
+    padding: 200px 0;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-title{
+    width: 696px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 44px;
+    text-align: center;
+}
+.hero-btn{
+    display: block;
+    width: 216px;
+    height: 50px;
+    color: white;
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+}
+.advantages{
+    display: none;
+}
+.advantages-list{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.advantages-desc{
+    margin-top: 10px;
+}
+.section-title{
+    text-align: center;
+}
+.we-du-list{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+    padding-bottom: 94px;
+}
+.section-team{
+    background-color:#F5F4FA;
+
+}
+.team-list{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+}
+.card-box{
+    padding: 30px 60px;
+    background-color: #ffffff;
+}
