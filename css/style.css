@@ -1,13 +1,7 @@
-body{
-    font-family: 'Ralewsy','Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    background-color: #ffffff;
-}
 a{
     text-decoration: none;
+    color:inherit;
+    cursor: pointer;
 }
 ul{
     list-style: none;
@@ -17,6 +11,15 @@ ul{
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
     padding: 0;
+}
+body{
+    font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: #ffffff;
+    color:#212121;
 }
 .container{
     width: 1170px;
@@ -36,6 +39,18 @@ h1,h2,h3,h4,h5,h6,p{
     display: flex;
     align-items: center;
 }
+.logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+}
+.logo-web{
+    color:#000000;
+}
+.logo-studio{
+    color:#2196F3;
+}
 .navigation{
     display: flex;
     align-items: center;
@@ -46,6 +61,11 @@ h1,h2,h3,h4,h5,h6,p{
     justify-content: space-between;
     margin-left: 93px;
 }
+.list-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+}
 .list-contacs{
     display: flex;
     margin-left: auto;
@@ -53,9 +73,21 @@ h1,h2,h3,h4,h5,h6,p{
 .menu-contact + .menu-contact{
     margin-left: 50px;
 }
+.menu-contact{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+}
+.item-hover:hover,
+.item-hover:focus{
+    color: #2196F3;
+}
 .hero{
+    max-width: 1600px;
+    margin: 0 auto;
     padding: 200px 0;
-    background-image: url(../img/hero.jpg);
+    background-image:linear-gradient(#2f303a40,#2f303a40),url(../img/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -65,18 +97,28 @@ h1,h2,h3,h4,h5,h6,p{
     text-transform: uppercase;
     color: #ffffff;
     font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
     text-align: center;
 }
 .hero-btn{
     display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
     width: 216px;
     height: 50px;
     color: white;
-    background-color: blue;
+    background-color:#2196F3;
     margin: 0 auto;
     margin-top: 30px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
+}
+.section{
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .advantages{
     display: none;
@@ -88,15 +130,26 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .advantages-desc{
     margin-top: 10px;
+    color: #757575;
+}
+.section-work{
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .section-title{
     text-align: center;
+    font-weight: 700px;
 }
 .we-du-list{
     display: flex;
     column-gap: 30px;
     margin-top: 50px;
     padding-bottom: 94px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
 }
 .section-team{
     background-color:#F5F4FA;
@@ -108,6 +161,44 @@ h1,h2,h3,h4,h5,h6,p{
     margin-top: 50px;
 }
 .card-box{
+    background-color: white;
+    padding: 30px 0;
+}
+.team-name{
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.team-position{
+    color: #757575;
+    text-align: center;
+}
+
+.card-box{
     padding: 30px 60px;
     background-color: #ffffff;
+}
+.footer{
+    max-width: 1600px;
+    padding: 60px 0;
+    background-color:#2F303A;
+    margin: 0 auto;
+}
+.logo-web-footer{
+    color: #2196F3;
+}
+.logo-studio-footer{
+    color: #FFFFFF;
+}
+.address{
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.footer-contacs-item{
+    color: #757575;
+}
+.footer-contacs-item{
+    margin-top: 10px;
 }
