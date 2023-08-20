@@ -22,15 +22,21 @@ body{
     font-size: 14px;
     letter-spacing: 0.03em;
     background-color: #ffffff;
-    color:#212121;
+    color:#757575;
 }
 .container{
     width: 1170px;
     margin: 0 auto;
-    padding:0 30px;
+    padding:0 5px;
+}
+.text{
+    color:#212121;
+
 }
 .section{
     padding: 94px 0;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .header{
     padding: 24px 0;
@@ -85,7 +91,20 @@ body{
 .item-hover:hover,
 .item-hover:focus{
     color: #2196F3;
+    fill: #2196F3;
 }
+.header-contact{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color:inherit;
+}
+.header-icons{
+    margin-right: 10px;
+    fill: #757575;
+}
+
 .hero{
     max-width: 1600px;
     margin: 0 auto;
@@ -119,10 +138,7 @@ body{
     border-radius: 4px;
     cursor: pointer;
 }
-.section{
-    max-width: 1600px;
-    margin: 0 auto;
-}
+
 .advantages{
     display: none;
 }
@@ -168,6 +184,7 @@ body{
     padding: 30px 0;
 }
 .team-item{
+    height: 430px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
@@ -179,13 +196,52 @@ body{
     margin-bottom: 10px;
 }
 .team-position{
-    color: #757575;
     text-align: center;
+    margin-bottom: 16px;
 }
-
 .card-box{
-    padding: 30px 60px;
+    padding: 30px;
     background-color: #ffffff;
+}
+.icon-list{
+    display: flex;
+    width: 205px;
+    justify-content: space-between;
+}
+.icon-link{
+    display: flex;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+}
+.icon-link:hover,
+.icon-link:focus{
+    background-color: #2196F3;
+    fill: white;
+}
+.company-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.link-company{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+.icon-company{
+    fill: #AFB1B8;
+}
+.social-icon{
+    fill: #AFB1B8;
+}
+.link-company:hover,
+.link-company:focus{
+    border: 1px solid#2196F3;
 }
 .footer{
     max-width: 1600px;
@@ -200,6 +256,7 @@ body{
     color: #FFFFFF;
 }
 .address{
+    width: 230px;
     color: #FFFFFF;
     margin-top: 20px;
 }
@@ -208,4 +265,19 @@ body{
 }
 .footer-contacs-item{
     margin-top: 10px;
+}
+.footer-location{
+    display: flex;
+    column-gap: 70px;
+}
+.footer-icon{
+    fill: #FFFFFF;
+    background-color: #FFFFFF1A;
+}
+.footer-title{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
 }
