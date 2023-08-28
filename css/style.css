@@ -203,25 +203,20 @@ body {
   height: 294px;
   z-index: 1;
 }
-.desktop {
-  position: absolute;
+.work-title{
+    position: absolute;
+    background-color: #2F303ACC;
+    bottom: 0;
+}
+.desktop{
   padding:27px 118px;
-  background-color: #2F303ACC;
-  bottom: 0;
 }
-
 .mobile {
-  position: absolute;
   padding:27px 122.53px;
-  background-color: #2F303ACC;
-  bottom: 0;
 }
-
 .design {
-  position: absolute;
   padding:27px 106.2px;
-  background-color: #2F303ACC;
-  bottom: 0;
+
 }
 .title{
   font-weight: 700;
