@@ -201,7 +201,7 @@ body {
 .we-du-item{
   position: relative;
   height: 294px;
-
+  z-index: 1;
 }
 .desktop {
   position: absolute;
@@ -390,6 +390,7 @@ body {
   left: 0;
   right: 0;
   background-color: #00000033;
+  z-index: 2;
 }
 .modal {
   position: absolute;
