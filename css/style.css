@@ -415,9 +415,6 @@ body {
   fill: #2196F3;
   outline: 1px solid #2196F3;
 }
-/* .modal-form-field+.modal-form-field {
-  margin-top: 10px;
-} */
 .modal-form-field-input {
   height: 40px;
   width: 100%;
