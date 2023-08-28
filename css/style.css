@@ -151,7 +151,7 @@ body {
   text-align: center;
 }
 
-.hero-btn {
+.btn {
   display: block;
   font-weight: 700;
   font-size: 16px;
@@ -345,22 +345,95 @@ body {
   margin-top: 10px;
 }
 
-.footer-location {
+.footer-location{
   display: flex;
   column-gap: 70px;
 }
-
-.footer-icon {
+.footer-icon{
   fill: #ffffff;
   background-color: #ffffff1a;
 }
-
-.footer-title {
+.footer-title{
   color: #ffffff;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16.41px;
 }
+.footer-input{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+/* модальное окно*/
+.backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #00000033;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
 
-/* .s */
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal-form-field {
+  display: flex;
+  flex-direction: column;
+}
+.modal-form-field-input:hover,
+.modal-form-field-input:focus,
+.comment-area:hover,
+.comment-area:focus {
+  fill: #2196F3;
+  outline: 1px solid #2196F3;
+}
+.modal-form-field+.modal-form-field {
+  margin-top: 10px;
+}
+.modal-form-field-input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #21212133;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+.comment-area {
+  width: 100%;
+  padding: 12px 15px;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #21212133;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+}
+.form-field-check {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.modal-btn {
+  margin-top: 30px;
+}
+.modal-link {
+  color: #2196F3;
+  text-decoration: underline;
+}
+.modal-text {
+  text-align: center;
+}

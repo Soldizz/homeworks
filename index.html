@@ -52,7 +52,42 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                <button class="hero-btn" type="button">Замовити послугу</button>
+                <button class="btn" type="button"data-modal-open>Замовити послугу</button>
+            </div>
+            <div class="backdrop is-hidden" data-backdrop>
+                <div class="modal">
+                    <!-- <button type="button" class="modal-close-btn">
+                            <svg class="icon-close-btn">
+                                <use href=""></use>
+                            </svg>
+                        </button> -->
+                    <h3 class="modal-text advantages-title text">Залиште свої дані, ми вам передзвонимо</h3>
+                    <form autocomplete="on">
+                        <div class="modal-form-field">
+                            <label class="modal-form-field-label" for="name">Ім'я</label>
+                            <input class="modal-form-field-input" type="text" id="name" name="name">
+                        </div>
+                        <div class="modal-form-field">
+                            <label for="email">Телефон</label>
+                            <input class="modal-form-field-input" type="text" id="email" name="email">
+                        </div>
+                        <div class="modal-form-field">
+                            <label class="modal-form-field-label" for="password">Пошта</label>
+                            <input class="modal-form-field-input" type="text" id="password" name="password">
+                        </div>
+                        <div class="modal-form-field">
+                            <label class="modal-form-field-label" for="comment">Коментар</label>
+                            <textarea class="comment-area modal-form-field" id="comment" cols="30" rows="10"
+                                placeholder="Введіть текст"></textarea>
+                        </div>
+                        <div class="form-field-check modal-form-field">
+                            <input class="modal-form-field-check" type="checkbox" id="input-check">
+                            <label class="modal-form-field-label" for="input-check"> Погоджуюся з розсилкою та приймаю <a
+                                    class="modal-link" href="#">Умови договору</a></label>
+                        </div>
+                    </form>
+                    <button class="modal-btn btn" data-modal-close>Відправити</button>
+                </div>
             </div>
         </section>
         <!-- Наші особливості -->
@@ -362,8 +397,17 @@
                     </li>
                 </ul>
             </div>
+            <div>
+                <h2 class="footer-title">Підпишіться на розсилку</h2>
+                <div class="modal-form-field">
+                    <input class="footer-input" type="text" id="" name="">
+                    <button class="btn" type="button" data-modal-open>Замовити послугу</button>
+                </div>
+
+            </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
