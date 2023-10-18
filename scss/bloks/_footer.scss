@@ -61,8 +61,7 @@
 }
 
 .footer-btn {
-    display: flex;
-    align-items: center;
+    @extend %sections;
     padding: 10px 28px;
 }
 

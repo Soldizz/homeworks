@@ -3,8 +3,7 @@
 }
 
 .advantages-list {
-    display: flex;
-    align-items: center;
+    @extend %sections;
     column-gap: 30px;
 }
 
@@ -12,3 +11,7 @@
     margin-top: 10px;
     color: #757575;
 }
+
+
+
+

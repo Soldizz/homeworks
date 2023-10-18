@@ -22,15 +22,12 @@
 }
 
 .header-position {
-    display: flex;
-    align-items: center;
+    @extend %sections;
 }
 
 .logo {
-    font-family: 'Raleway';
+    @extend %fonts;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.17;
 }
 
 .logo-web {
@@ -54,12 +51,12 @@
 }
 
 .list-item {
+    @extend %transition;
     position: relative;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .list-item:hover:after {
@@ -74,7 +71,7 @@
 }
 
 .list-contacs {
-    display: flex;
+    @extend %sections;
     margin-left: auto;
 }
 
@@ -83,28 +80,24 @@
 }
 
 .menu-contact {
-    font-family: 'Roboto';
+    @extend %main-font;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.17;
 }
 
 .item-hover {
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
 }
 
 .item-hover:hover,
 .item-hover:focus {
-    color: #2196f3;
-    fill: #2196f3;
+    @extend %hover-color;
 }
 
 .header-contact {
-    display: flex;
+    @extend %sections;
     text-decoration: none;
     justify-content: center;
-    align-items: center;
     color: inherit;
 }
 

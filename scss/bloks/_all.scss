@@ -26,11 +26,9 @@ address {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    @extend %fonts;
     font-weight: 400;
     font-size: 14px;
-    letter-spacing: 0.03em;
     background-color: #ffffff;
     color: #757575;
 }

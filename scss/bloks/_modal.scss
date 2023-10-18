@@ -42,28 +42,26 @@
 }
 
 .modal-form-field-input {
+    @extend %transition;
     height: 40px;
     width: 100%;
     border: 1px solid #21212133;
     border-radius: 5px;
     padding-left: 42px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .comment-area {
+    @extend %transition;
     width: 100%;
     padding: 12px 15px;
     resize: none;
     border-radius: 5px;
     border: 1px solid #21212133;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-input {
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
 }
 
 .form-field-check {
@@ -102,10 +100,11 @@
 .modal-position:focus,
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-    fill: #2196F3;
+    @extend %hover-color;
 }
 
 .modal-close-btn {
+    @extend %transition;
     display: flex;
     position: absolute;
     align-items: center;
@@ -115,6 +114,4 @@
     border-radius: 50%;
     background-color: #00000000;
     border: 1px solid #0000001A;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

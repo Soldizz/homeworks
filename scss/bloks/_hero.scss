@@ -8,21 +8,20 @@
 }
 
 .hero-title {
+    @extend %title;
     width: 696px;
     margin: 0 auto;
-    text-transform: uppercase;
-    color: #ffffff;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
-    text-align: center;
+
 }
 
 .btn {
+    @extend %main-fonts;
     display: block;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.875;
     padding: 10px 32px;
     color: white;
     background-color: #2196f3;
