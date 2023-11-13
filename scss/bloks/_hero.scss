@@ -6,7 +6,14 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+@media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+        background-image: url("../../img/2x/hero2x.jpg");
+    }
+}
 .hero-title {
     @extend %title;
     width: 696px;
@@ -14,9 +21,7 @@
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
-
 }
-
 .btn {
     @extend %main-fonts;
     display: block;
