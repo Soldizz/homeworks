@@ -6,21 +6,22 @@
 }
 
 .logo-web-footer {
-    color: #2196f3;
+    // color: #2196f3;
+    color: var(--WEB-BG-color);
 }
 
 .logo-studio-footer {
-    color: #ffffff;
+    color:var(--text-color-white);
 }
 
 .address {
     width: 230px;
-    color: #ffffff;
+    color: var(--text-color-white);
     margin-top: 20px;
 }
 
 .footer-contacs-item {
-    color: #757575;
+    color: var(--text-color);
 }
 
 .footer-contacs-item {

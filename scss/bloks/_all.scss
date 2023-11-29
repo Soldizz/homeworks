@@ -29,6 +29,6 @@ body {
     @extend %fonts;
     font-weight: 400;
     font-size: 14px;
-    background-color: #ffffff;
-    color: #757575;
+    background-color:var(--text-color-white);
+    color: var(--text-color);
 }

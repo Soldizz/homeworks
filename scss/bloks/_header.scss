@@ -1,11 +1,11 @@
 .container {
     width: 1170px;
     margin: 0 auto;
-    padding: 0 5px;
+    padding: 0 15px;
 }
 
 .text {
-    color: #212121;
+    color: var(--title-color);
 }
 
 .section {
@@ -17,7 +17,6 @@
 .header {
     padding: 24px 0;
     max-width: 1600px;
-    /* height: 80px; */
     margin: 0 auto;
 }
 
